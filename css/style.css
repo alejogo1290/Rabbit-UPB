@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-logo {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    height: 150px;
+}
+/* Barra de menú */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.98);
+    left: 0;
+}
+
+li {
+    float: left;
+    width: 25%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+li:hover {
+    background-color: #66666e;
+}
+
+.activo {
+    background-color: #66666e;
+}
+
+/* Slider */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+/* Rabbit */
+
+.contenedor {
+    background-color: rgba(0, 0, 0, 0.99);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.texto {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 50px 30px 50px;
+    font-size: 25px;
+}
+
+/* Footer */
+
+.cont-footer {
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-icono {
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 5px;
+}
+
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab {
+    color: black;
+    font-size: 50px;
+}
+
+.pagos-img {
+    height: 50px;
+}
+
+.autor {
+    border-top: solid 1px black;
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.alejo {
+    text-decoration: none;
+}
+
+.alejo:hover {
+    font-size: 22px;
+}
+/* Contacto - Compras */
+
+
+.contenedor-contacto{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0;
+}
+
+form {
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+/* Camisetas */
+
+.cont-texto{
+    padding: 20px 0 ;
+
+}
+
+.img-camisetas {
+    height: 400px;
+}
+
+/* .grid {
+    padding: 10px 20px 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px; 
+} */
+
+.grid {
+    padding: 10px 20px 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 22%;
+    margin: 1%;
+}
+
+.articulo:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.texto-camisetas {
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    padding-top: 5px;
+    text-align: center;
+}
+
+/* link tallas */
+
+.link-tallas{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-tallas {
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    background-color: black;
+    padding: 20px 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-tallas:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Control audio */
+
+.cont-audio {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.control {
+    background-color:white;
+    color: black;
+    margin: 0 5px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;        
+    font-size: 20px;
+}
+
+.control:hover {
+    background-color: #66666e;
+}
+
+/* Tallas */
+
+.img-tallas {
+    width: 500px;
+}
+.t{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.cont-tallas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    font-family:'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+td {
+    border: solid 1px white;
+    color: black;
+    padding: 7px;
+
+}
+
+.cont-tabla {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+h4 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+/* Autor */
+
+.texto-autor {
+    font-family:'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: justify;
+    padding: 10px 30px;
+}
+
+.img-autor {
+    width: 25%;
+    padding: 20px;
+}
